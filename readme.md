@@ -1,33 +1,31 @@
-### 본 페이지는 샘플입니다. 아래의 *[샘플 양식에 포함되어 있는 항목은 필수 기재사항]*   입니다.
-해당 내용은 모두 예시이며 설명이 부족하거나 추가하고싶은 부분이 있으면 개발자님이 추가해서 작성하셔도 무관합니다. (동영상, 이미지, 텍스트 적용 전부 자유)
-
-
-# Project name or Logo
+# 퍼펙트 샷 : 만발의 법칙
 ![Logo](https://logosbynick.com/wp-content/uploads/2018/03/final-logo-example.png)
 
-프로젝트명 또는 프로젝트 로고 이미지 **(택1)**
+퍼펙트 샷 : 만발의 법칙 (로고 수정 예정)
 
-## 프로잭트 소개
-- 설명 기입
+## 프로젝트 소개
+- 본 프로젝트에서는 모바일 가상현실 사격훈련 앱을 만듭니다.
+- 앱의 이름은 퍼펙트샷 : 만발의 법칙입니다.
+- 앱 제작은 유니티를 기반으로 합니다.
+- 총에 매달 수 있는 컨트롤러를 아두이노로 제작합니다.
 
 
 ## 기능 설명
- - 설명 기입
+ - 휴대폰 거치대를 이용하여 총구 쪽에 매달아서 이용합니다.(사진 첨부 예정)
+ - 제작한 컨트롤러를 총에 매달아서 사용합니다.
+ - 컨트롤러의 입력을 받아서 격발합니다.
+ - 총을 상하좌우로 움직여서 시선을 움직일 수 있습니다.
+ - 이로써 실제 사격과 흡사한 경험을 할 수 있습니다.
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
-* ECMAScript 6 지원 브라우저 사용
-* 권장: Google Chrome 버젼 77 이상
+* 안드로이드 휴대폰 (버전은 추후 수정)
 
 ## 기술 스택 (Technique Used) 
-### Server(back-end)
- -  nodejs, php, java 등 서버 언어 버전 
- - express, laravel, sptring boot 등 사용한 프레임워크 
- - DB 등 사용한 다른 프로그램 
+### App
+ -  Unity C# Script
  
-### Front-end
- -  react.js, vue.js 등 사용한 front-end 프레임워크 
- -  UI framework
- - 기타 사용한 라이브러리
+### IoT
+ -  Arduino
 
 ## 설치 안내 (Installation Process)
 ```bash
@@ -37,18 +35,11 @@ $ yarn start or npm run start
 ```
 
 ## 프로젝트 사용법 (Getting Started)
-**마크다운 문법을 이용하여 자유롭게 기재**
-
-잘 모를 경우
-구글 검색 - 마크다운 문법
-[https://post.naver.com/viewer/postView.nhn?volumeNo=24627214&memberNo=42458017](https://post.naver.com/viewer/postView.nhn?volumeNo=24627214&memberNo=42458017)
-
- 편한 마크다운 에디터를 찾아서 사용
- 샘플 에디터 [https://stackedit.io/app#](https://stackedit.io/app#)
+추후 작성 예정
  
 ## 팀 정보 (Team Information)
-- hong gil dong (hong999@gmail.com), Github Id: gildong999
-- kim su ji (suji999@gmail.com), Github Id: suji999
+- 최성민 : 팀장, 앱 개발, 프로젝트 총괄 (JadenChoi2k, jkya02@gmail.com)
+- 마승훈 : 팀원, 컨트롤러 개발, 디자인 담당 (sseungh, ink0513@unist.ac.kr)
 
 ## 저작권 및 사용권 정보 (Copyleft / End User License)
  * [MIT](https://github.com/osam2020-WEB/Sample-ProjectName-TeamName/blob/master/license.md)
